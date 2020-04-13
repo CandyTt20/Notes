@@ -11,7 +11,6 @@ pd.read_excel(r''文件路径',encoding='utf-8',sheet_name='哪张表')
 ```
 
 
-
 ### DataFrame 数据筛选
 #### loc 方法 （传递的index和column是索引和列的标签）
 - DataFram.loc[index,column] -> 取出索引是index，列是colum的元素。
@@ -22,3 +21,4 @@ pd.read_excel(r''文件路径',encoding='utf-8',sheet_name='哪张表')
 - DataFram.loc[:,[column1,column2]]-> 取出列是colum1和colum2的所用元素。
 - DataFram.loc[[index1,index2],:]-> 取出索引是index1和index2的所用元素。
 #### iloc 方法 （传递的index和column是索引和列的值，用法与 loc 相同）
+- 
