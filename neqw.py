@@ -23,6 +23,7 @@ print('#' * 50)
 
 #! nan是浮点类型
 
+
 t = np.arange(12).reshape(3, 4)
 print(t)
 t = t.astype(float)
