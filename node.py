@@ -103,3 +103,4 @@ if __name__ == "__main__":
     ll.travel()
     ll.remove(14)
     ll.travel()
+    print(ll)
