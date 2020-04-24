@@ -6,6 +6,7 @@ def bubble_sort(l):
                 l[i], l[i + 1] = l[i + 1], l[i]
                 i += 1
     return l
+            
                 
 l=[4,5,2,7,8]
 print(bubble_sort(l))
