@@ -12,5 +12,6 @@ def sum_5(l):
     return sl
 
 
+
 l = [1, 3, 2, 6, -1, 4, 1, 8, 2]
 print(sum_5(l))
