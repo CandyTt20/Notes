@@ -7,3 +7,5 @@ t = pd.read_csv(r'F:\python_note\dogNames2.csv')
 # t1.info()
 t = t.sort_values(by="Count_AnimalName", ascending=False)
 print(t)
+
+
