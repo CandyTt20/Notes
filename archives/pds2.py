@@ -9,3 +9,6 @@ t = t.sort_values(by="Count_AnimalName", ascending=False)
 print(t)
 
 
+
+
+
