@@ -30,3 +30,4 @@ plt.plot(age, num2, label='b', color='g')
 plt.legend()
 
 plt.show()
+
