@@ -11,5 +11,5 @@ def pair_with_smaller_sum(arr, target):
     return count
 
 arr = [-1, 4, 2, 1, 3]
-target = 5
+target = 100
 print(pair_with_smaller_sum(arr, target))
