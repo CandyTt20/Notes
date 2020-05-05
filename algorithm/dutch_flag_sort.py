@@ -17,9 +17,25 @@ def dutch_flag_sort(arr):
     triplet_sort(arr, 1, 2, 0)
     return 
 
+def dutch_flag_sort_2(arr):
+    left, right, i = 0, len(arr) - 1, 0
+    
+    
+    while i <= right:
+        if a[i] == 0:
+            a[i], a[left] = a[left], a[i]
+            left += 1
+            i += 1
+        elif a[i] == 1:
+            i += 1
+        else:
+            a[i], a[right] = a[right], a[i]
+            right -= 1
+    return        
+
 
 a = [0, 1, 1, 2, 2, 0, 1, 2, 1]
 print(a)
-dutch_flag_sort(a)
+dutch_flag_sort_2(a)
 
 print(a)
