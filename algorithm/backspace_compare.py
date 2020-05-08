@@ -7,6 +7,7 @@ class Solution(object):
         """
         return self.del_backspace(S, 0) == self.del_backspace(T, 0)
 
+
     def del_backspace(self, s, init):
         low, high = init, init+1
         if s == '':
