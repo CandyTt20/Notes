@@ -20,4 +20,8 @@ def main():
     head=reverse(head)
     print(head.value)
     print(head.next.value)
+    # print(head.next.value)
+    print(head.next.next.value)
+    print(head.next.next.next.value)
+    # print(head.next.next.next.next.value)
 main()
