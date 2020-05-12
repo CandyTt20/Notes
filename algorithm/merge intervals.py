@@ -1,0 +1,26 @@
+class Solution(object):
+    def merge(self, intervals):
+        """
+        :type intervals: List[List[int]]
+        :rtype: List[List[int]]
+        """
+        if intervals == []:
+            return []
+        merged = []
+        intervals.sort(key=lambda x: x[0])
+        start = intervals[0][0]
+        end = intervals[0][1]
+        for i in range(1, len(intervals)):
+            if intervals[i][0] <= end:
+                end = max(end, intervals[i][1])
+            else:
+                merged.append([start, end])
+                start = intervals[i][0]
+                end = intervals[i][1]
+        merged.append([start, end])
+        return merged
+
+
+x = Solution()
+p = []
+print(x.merge(p))
