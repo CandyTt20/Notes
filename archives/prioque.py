@@ -1,5 +1,6 @@
 class PrioQue(object):
     #! 线性表实现
+    
     def __init__(self, elist=[]):
         self._elist = list(elist)
         self._elist.sort(reverse=True)
